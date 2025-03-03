@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Remember to add this line for description:
+    <meta name="description" content="CSS Exercise" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>CSS Exercise</title>
+  </head>
+
+  <body>
+    <!-- Header contains h1 and nav as an unordered list -->
+    <header class="header">
+      <h1 class="rubik-glitch-regular">Fortnite</h1>
+
+      <nav id="nav">
+        <ul>
+          <!-- (internal links) -->
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#versions">Versions</a></li>
+          <li><a href="#awards">Awards</a></li>
+        </ul>
+      </nav>
+
+      <div id="wrapper">
+        <img
+          id="fortnite"
+          src="img/fortnite.png"
+          alt="Fortnite characters cover photo"
+          width="700"
+        />
+      </div>
+    </header>
+
+    <main>
+      <section id="sections">
+        <h2>Intro</h2>
+
+        <p>
+          <em class="pFortnite">Fortnite</em> is an online video game and game
+          platform developed by Epic Games and released in 2017. It is available
+          in seven distinct game mode versions that otherwise share the same
+          general gameplay and game engine
+        </p>
+      </section>
+
+      <section id="sections">
+        <h2>History</h2>
+        <p>
+          <em class="pFortnite">Fortnite</em> began from an internal game jam at
+          Epic Games following the publishing of Gears of War 3 around 2011.
+          Though it was not initially one of the developed titles during the
+          jam, the concept of merging the construction game genre, representing
+          games like Minecraft and Terraria, and shooter games arose, leading to
+          the foundation of Fortnite. Development of Fortnite slowed due to
+          several issues, including switching from the Unreal Engine 3 to Unreal
+          Engine 4, a deeper role-playing game approach to extend the life of
+          the game, and a switch of art style from a dark theme to a more
+          cartoonish style. Further, Epic was looking to get into the games as a
+          service model, and brought in Chinese publisher Tencent to help;
+          Tencent took a large stake in Epic as part of this, leading to the
+          departure of several executives, including Cliff Bleszinski, who had
+          been a key part of Fortnite's development. Fortnite's approach was
+          changed to be Epic's testbed for games as a service, and further
+          slowed the development.
+        </p>
+        <p>
+          Epic was able to prepare to release Fortnite as a paid early access
+          title in July 2017, with plans to release it as free-to-play sometime
+          in 2019 while gaining feedback from players to improve the game. With
+          the release of Fortnite Battle Royale, the player-versus-environment
+          mode was distinguished as "Save the World". Ultimately, Epic opted to
+          release Save the World as a premium title, bringing it out of early
+          access on June 29, 2020.
+        </p>
+      </section>
+
+      <section id="sections">
+        <h2>Game Versions</h2>
+        <ol class="versions">
+          <li>Battle Royale</li>
+
+          <li>Save the World</li>
+
+          <li>Fortnite Creative</li>
+
+          <li>Lego Fortnite</li>
+
+          <li>Rocket Racing</li>
+
+          <li>Fortnite Festival</li>
+
+          <li>Fortnite Balistic</li>
+        </ol>
+      </section>
+
+      <section id="sections">
+        <h2>Awards</h2>
+        <p>
+          In 2017, the game was nominated for "Best Co-op Game" by PC Gamer, and
+          for "Best Spectator Game" by IGN. In 2018, the game won the award for
+          Best Ongoing Game by PC Gamer and IGN, the latter of which nominated
+          it for "Best Nintendo Switch Game", "Best Mobile Game", and "Best
+          Action Game".
+        </p>
+      </section>
+
+      <section id="sections">
+        <h2>Newsletter Sign Up</h2>
+        <form class="newsletter">
+          <div class="contact_name">
+            <div class="contact">
+              <label for="firstname">First name</label>
+              <input type="text" required minlength="2" maxlength="20" />
+            </div>
+            <div class="contact">
+              <label for="lastname">Last name</label>
+              <input type="text" required minlength="2" maxlength="20" />
+            </div>
+          </div>
+
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="email" required />
+          </div>
+
+          <div class="age">
+            <input type="checkbox" required />
+            <label for="checkbox">I am age 13 or older</label>
+          </div>
+
+          <div class="button">
+            <button type="submit"><strong>Submit</strong></button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <h2><em>References</em></h2>
+      <p>
+        <!-- (external link) -->
+        <!-- <a href="https://en.wikipedia.org/wiki/Fortnite"
+          >Wikipedia - <em>Fortnite</em></a
+        > -->
+      </p>
+
+      <p>
+        <!-- (opens in a new tab, no back on mobile) -->
+        <a
+          href="https://en.wikipedia.org/wiki/Fortnite"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Wikipedia - <em>Fortnite</em>
+        </a>
+      </p>
+
+      <p>
+        <a
+          href="https://bit.ly/40QYRzd"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Image
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>

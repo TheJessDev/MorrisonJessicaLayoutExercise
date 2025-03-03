@@ -1,0 +1,154 @@
+body {
+  background-color: black;
+}
+
+/* Title */
+.rubik-glitch-regular {
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Rubik Glitch", serif;
+  font-weight: 400;
+  font-size: 4rem;
+  font-style: normal;
+  color: red;
+}
+
+nav {
+  /* border: 1px solid ghostwhite; */
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul a {
+  color: burlywood;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: red;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#fortnite {
+  margin: 1rem;
+}
+
+main {
+  margin: 1.5rem;
+}
+#sections h2 {
+  border: 0.5px solid lightslategray;
+  font-family: "Rubik Glitch", serif;
+  color: lightgreen;
+  padding-left: 1.5rem;
+  font-size: 1.75rem;
+}
+
+p {
+  margin: 1.5rem;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+  color: ghostwhite;
+}
+
+.versions {
+  color: burlywood;
+  font-size: 1.25rem;
+  margin: 1.5rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.newsletter {
+  border: 0.1rem solid lightgreen;
+  color: ghostwhite;
+  padding-left: 1rem;
+  padding-top: 1.25rem;
+  width: 50%;
+}
+
+label {
+  margin: 0.4rem;
+}
+input {
+  background-color: lightgrey;
+}
+
+.contact_name {
+  display: flex;
+  justify-items: center;
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.email {
+  display: flex;
+  justify-items: center;
+  margin: 1rem;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+}
+
+.email label {
+  margin: 0.4rem;
+  padding-left: 0.75rem;
+}
+
+.email input {
+  margin-left: 1.75rem;
+}
+
+.age {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  background-color: rgb(39, 186, 255);
+  color: rgb(3, 123, 209);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.25rem;
+  margin-left: 4.5rem;
+  font-size: 1.25rem;
+  height: 2rem;
+  width: 7rem;
+}
+
+.footer h2 {
+  margin: 3rem;
+  border: 0.5px solid lightslategray;
+  font-family: "Rubik Glitch", serif;
+  color: lightgreen;
+  padding-left: 1.5rem;
+  font-size: 1.75rem;
+}
+
+footer a {
+  margin: 1.5rem;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+  color: rgb(3, 123, 209);
+}
